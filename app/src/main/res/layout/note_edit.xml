@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:hint="Note's title" />
+
+            <EditText
+                android:id="@+id/body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:hint="Note's body"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical" />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+
+            <Spinner
+                android:id="@+id/spinnerPriority"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/priority"
+                android:layout_margin="5dp"
+                android:prompt="@string/priority_prompt" />
+
+            <ImageView
+                android:id="@+id/edit_note_img"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:clickable="true" />
+
+            <Button
+                android:id="@+id/buttonSelectImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="selectImage"
+                android:text="@string/add_image" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:text="@string/confirm" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

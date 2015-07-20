@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="Theme"
+        android:dialogTitle="Theme"
+        android:entries="@array/pref_themes"
+        android:entryValues="@array/pref_themes_values"
+        android:key="theme_preference"
+        android:summary="Select theme"
+        android:title="Choose theme" />
+
+    <ListPreference
+        android:defaultValue="Medium"
+        android:dialogTitle="Font size"
+        android:entries="@array/pref_fonts"
+        android:entryValues="@array/pref_fonts"
+        android:key="font_preference"
+        android:summary="Select font size"
+        android:title="Choose size" />
+
+</PreferenceScreen>

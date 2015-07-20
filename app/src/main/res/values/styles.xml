@@ -1,0 +1,168 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- small -->
+
+    <style name="small_note_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="small_note_title_red" parent="@style/small_note_title">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="small_note_title_black" parent="@style/small_note_title">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="small_note_title_green" parent="@style/small_note_title">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="small_note_title_purple" parent="@style/small_note_title">
+        <item name="android:textColor">#ff33aa</item>
+    </style>
+
+    <style name="small_note_date">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="small_note_date_red" parent="@style/small_note_date">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="small_note_date_green" parent="@style/small_note_date">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="small_note_date_purple" parent="@style/small_note_date">
+        <item name="android:textColor">#ff33aa</item>
+    </style>
+
+    <!-- medium -->
+
+    <style name="medium_note_title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="medium_note_title_red" parent="@style/medium_note_title">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="medium_note_title_black" parent="@style/medium_note_title">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="medium_note_title_green" parent="@style/medium_note_title">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="medium_note_title_blue" parent="@style/medium_note_title">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="medium_note_date">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="medium_note_date_red" parent="@style/medium_note_date">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="medium_note_date_green" parent="@style/medium_note_date">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="medium_note_date_purple" parent="@style/medium_note_date">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <!-- large -->
+
+    <style name="large_note_title">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="large_note_title_red" parent="@style/large_note_title">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="large_note_title_black" parent="@style/large_note_title">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="large_note_title_green" parent="@style/large_note_title">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="large_note_title_blue" parent="@style/large_note_title">
+        <item name="android:textColor">#ff33aa</item>
+    </style>
+
+    <style name="large_note_date">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="large_note_date_red" parent="@style/large_note_date">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="large_note_date_green" parent="@style/large_note_date">
+        <item name="android:textColor">#00ff00</item>
+    </style>
+
+    <style name="large_note_date_purple" parent="@style/large_note_date">
+        <item name="android:textColor">#ff33aa</item>
+    </style>
+
+    <!-- Basic theme -->
+    <style name="Theme" parent="android:Theme.Holo">
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="Theme.Small">
+        <item name="noteTitle">@style/small_note_title_red</item>
+        <item name="noteDate">@style/small_note_date_green</item>
+    </style>
+
+    <style name="Theme.Medium">
+        <item name="noteTitle">@style/small_note_title_red</item>
+        <item name="noteDate">@style/small_note_date_green</item>
+    </style>
+
+    <style name="Theme.Large">
+        <item name="noteTitle">@style/large_note_title_red</item>
+        <item name="noteDate">@style/large_note_date_green</item>
+    </style>
+
+    <!-- Basic light theme -->
+    <style name="Theme.Light" parent="android:Theme.Holo.Light">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Theme.Light.Small">
+        <item name="noteTitle">@style/small_note_title_black</item>
+        <item name="noteDate">@style/small_note_date_red</item>
+    </style>
+
+    <style name="Theme.Light.Medium">
+            <item name="noteTitle">@style/small_note_title_black</item>
+        <item name="noteDate">@style/small_note_date_red</item>
+    </style>
+
+    <style name="Theme.Light.Large">
+        <item name="noteTitle">@style/large_note_title_black</item>
+        <item name="noteDate">@style/large_note_date_red</item>
+    </style>
+
+</resources>

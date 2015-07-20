@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Заметки</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="menu_insert">Добавить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="title">Заголовок</string>
+    <string name="body">Описание</string>
+    <string name="confirm">Сохранить</string>
+    <string name="edit_note">Редактировать</string>
+    <string name="action_search">Поиск</string>
+    <string name="add_image">Картинка</string>
+    <string name="priority_prompt">Приоритет</string>
+    <string name="crud_edit">Редактировать</string>
+    <string name="crud_delete">Удалить</string>
+    <string name="search">Поиск</string>
+
+    <string name="priorLow"> Низкий</string>
+    <string name="priorHigh">Высокий</string>
+    <string name="priorMedium">Средний</string>
+    <string name="title_activity_settings">Настройки</string>
+
+</resources>

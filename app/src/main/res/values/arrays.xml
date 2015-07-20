@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_themes">
+        <item>Theme</item>
+        <item>Theme Light</item>
+    </string-array>
+    <string-array name="pref_themes_values">
+        <item>Theme</item>
+        <item>Theme_Light</item>
+    </string-array>
+    <string-array name="pref_fonts">
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Small</item>
+    </string-array>
+</resources>
